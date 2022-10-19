@@ -1,0 +1,356 @@
+Merge branch 'master' of https://gitee.com/tom842422/sosoyy
+
+# Conflicts:
+#	ui/common/__pycache__/login_ue.cpython-310.pyc
+#	ui/common/__pycache__/main_ue.cpython-310.pyc
+#	ui/failures
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please run
+#	git update-ref -d MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .idea/.gitignore
+#	modified:   .idea/code.iml
+#	modified:   .idea/misc.xml
+#	modified:   .idea/modules.xml
+#	modified:   .idea/vcs.xml
+#	new file:   .svn/pristine/01/011e827e8f5f56fed5896c5d5825e24f966a35f1.svn-base
+#	new file:   .svn/pristine/02/02f406e8abeb27fba5715ed29c2059b9759fbbb4.svn-base
+#	new file:   .svn/pristine/03/036600dd296c5280290d4387047449bf94db3e84.svn-base
+#	new file:   .svn/pristine/03/03a7afc1d9e3bbe6f606b669b6daa1a686f10a03.svn-base
+#	new file:   .svn/pristine/04/04c64e58bc25c149482ed45dbd79e40effb89eb7.svn-base
+#	new file:   .svn/pristine/05/0595ad304e05241235ee87cf25a8c66dff8bccb8.svn-base
+#	new file:   .svn/pristine/06/06f514d30b60ce99085484a2a75729c0618a795e.svn-base
+#	new file:   .svn/pristine/08/0819151680147843174609728066a6d3630b358a.svn-base
+#	new file:   .svn/pristine/08/088ea943b42ab97b2c025b0077907c1e5474ae3e.svn-base
+#	new file:   .svn/pristine/0a/0a22ed90c21b898809e6d0bbecaaa2c1149a255c.svn-base
+#	new file:   .svn/pristine/0a/0a6441144242eb313bee663f9d96fa1e8479b179.svn-base
+#	new file:   .svn/pristine/0b/0b4e68205d06e64ffe924daef027c3a5c649c0f8.svn-base
+#	new file:   .svn/pristine/0d/0d8540110f81ff793fa1e1570c2455d2f2be2df2.svn-base
+#	new file:   .svn/pristine/0d/0dab50a0bdd67bfe4466e49443397121be076dc6.svn-base
+#	new file:   .svn/pristine/0e/0e98595fcc09cca8b545fd1db3f0c6b09a891aa7.svn-base
+#	new file:   .svn/pristine/0e/0efa3f37f9f7dcd98df222cb298ea9a9b67562b9.svn-base
+#	new file:   .svn/pristine/11/11599fd98b637e976a5bfe838e1a923c6b8de212.svn-base
+#	new file:   .svn/pristine/11/118ed438e586448856025e7818afd4e25ac4bf5b.svn-base
+#	new file:   .svn/pristine/11/118ff5509f187039734d04456bf01e44c933ac19.svn-base
+#	new file:   .svn/pristine/11/11b2ed9cd980631f14539bddef53b85556c598fe.svn-base
+#	new file:   .svn/pristine/11/11ba471dd9a9047908fd6461cc3541e3786f1210.svn-base
+#	new file:   .svn/pristine/11/11e9566a990a07b0d7c5ab98167761333b4955d7.svn-base
+#	new file:   .svn/pristine/12/1202bd893959ec4daed53cab96a6eb658ffb0122.svn-base
+#	new file:   .svn/pristine/12/12cdc017d41aa33a8ee4c1dd39bb5edfaf5d7703.svn-base
+#	new file:   .svn/pristine/13/13be95faef452b0bea953baf5355512bf747a676.svn-base
+#	new file:   .svn/pristine/13/13e5810e2642cde3cd49c1126eba439d7013e93a.svn-base
+#	new file:   .svn/pristine/15/157094f61b1bbc362ea16e655acb8936accaf426.svn-base
+#	new file:   .svn/pristine/15/1593285c6503d0e68697b5b35f32bddf2b0365c5.svn-base
+#	new file:   .svn/pristine/15/15ea067f280affc7630f2bcc84071b6baf922428.svn-base
+#	new file:   .svn/pristine/17/173b546f750b87aaa893b04fe841d34986807ca0.svn-base
+#	new file:   .svn/pristine/17/1771c36c5359489254a131bcff85f1cfa7f36947.svn-base
+#	new file:   .svn/pristine/1b/1b031e7bda754115c5cfd61c10cd01847ec4d555.svn-base
+#	new file:   .svn/pristine/1b/1be66e79fd6c459a93c0aed9a08dcfe90340e69e.svn-base
+#	new file:   .svn/pristine/1c/1c334322226d7b67366683629909199a29bc1e56.svn-base
+#	new file:   .svn/pristine/1c/1c3db9584d1a811d068b5384257701ae63a12df1.svn-base
+#	new file:   .svn/pristine/1d/1d01436db8718c437d30d035c3ce3282c5b927e9.svn-base
+#	new file:   .svn/pristine/1d/1d71381825b71533061fae89ae91262db9f8106e.svn-base
+#	new file:   .svn/pristine/1e/1e1a9aa401baca5413a9372a244d4482f4f54078.svn-base
+#	new file:   .svn/pristine/1e/1eff72a2ed345343b782d7c6ac1fd999559b7eaa.svn-base
+#	new file:   .svn/pristine/1f/1f58a568fa7be3101b281e83ec18a16297630423.svn-base
+#	new file:   .svn/pristine/1f/1fedbfaa78ae43282b6f2fcecf78b337c0318eaa.svn-base
+#	new file:   .svn/pristine/1f/1ffdf28aab00c52740b8b5dde8451da678dffbe3.svn-base
+#	new file:   .svn/pristine/20/2070f6b88d4a1ca43980f01742757c1f80d92434.svn-base
+#	new file:   .svn/pristine/20/208fcec60014fbae582f17aca8d8f2f59498eae8.svn-base
+#	new file:   .svn/pristine/20/20ae3c0b501f1b77e568fa236c7e97ecca977a86.svn-base
+#	new file:   .svn/pristine/22/22211095639ec772b4bedc764ee944b2583e46d8.svn-base
+#	new file:   .svn/pristine/23/23838e3a6c40e68fdce9c76f69f4202a936828dd.svn-base
+#	new file:   .svn/pristine/24/249ee610bdd12ae6bdac0b703e0866b26558cbb2.svn-base
+#	new file:   .svn/pristine/25/2584806ba147152ae005cb675aa4f01d5d068456.svn-base
+#	new file:   .svn/pristine/25/25f56f0bb72d30d828d7cd3669a97811661b123a.svn-base
+#	new file:   .svn/pristine/25/25fe7916baf830b7c0e981953a0da115fd1c487f.svn-base
+#	new file:   .svn/pristine/26/26f12648f2141480c3984ba1da431b8666092968.svn-base
+#	new file:   .svn/pristine/28/288efdc0027db4cfd8b7c47c4aeddba09b6ded12.svn-base
+#	new file:   .svn/pristine/28/28be7c96103b84321fda007d1c043d0258cb4806.svn-base
+#	new file:   .svn/pristine/28/28ddeb2fe079cd511daac4246ed4ca29b293a6dd.svn-base
+#	new file:   .svn/pristine/29/29446f98eb270fbb663a6d508ebf4c2facb59ff7.svn-base
+#	new file:   .svn/pristine/29/29a5414c1be7e0cbc7e984906f415cd40407218a.svn-base
+#	new file:   .svn/pristine/2b/2b6168cb77f6c666c40a11b7ca8705dd98152102.svn-base
+#	new file:   .svn/pristine/2c/2ce2805940572c9d95c3a60ac405c16a49e40bd9.svn-base
+#	new file:   .svn/pristine/2c/2ced3d41d44738f0feff31a25d994ebc988e40bb.svn-base
+#	new file:   .svn/pristine/2d/2df0d6fd9f14fa938f65de548ba78861d342058c.svn-base
+#	new file:   .svn/pristine/30/30499e5c912a2257bac5eb117d1e128507c20e66.svn-base
+#	new file:   .svn/pristine/30/304fe56197c700d8c3021bf1a03c81d85a271af2.svn-base
+#	new file:   .svn/pristine/31/3156c09699b3544a4194ff8595d110522685d9b3.svn-base
+#	new file:   .svn/pristine/32/320356166a680eae2d9f5edc90b7699ecfb7f590.svn-base
+#	new file:   .svn/pristine/33/337350e7789d41593bc817193eb5a8e00bf3062c.svn-base
+#	new file:   .svn/pristine/33/338414602a56b99a2df1ec030279ecd56b624afb.svn-base
+#	new file:   .svn/pristine/33/33ef413f426d816418ea92fe13e62f85662bbc79.svn-base
+#	new file:   .svn/pristine/34/3410682130a7085af4eef8372df9e3b110571547.svn-base
+#	new file:   .svn/pristine/34/345d030046bbacca0e5afc4788c7d92ac6d114ee.svn-base
+#	new file:   .svn/pristine/34/34aa343b5defb73206fec8763d6e21f419652e73.svn-base
+#	new file:   .svn/pristine/35/35006bb61218eb3ae6f92006963f9286cf077e99.svn-base
+#	new file:   .svn/pristine/35/35b2747a4a4f9e6ea1c5ebeb0d8d365f01dad88a.svn-base
+#	new file:   .svn/pristine/36/36049703994c1067d3c3c9bd74c7edb9fdfd5fe7.svn-base
+#	new file:   .svn/pristine/37/373d6a69ea8e2f100c68214432564d8fc9c64475.svn-base
+#	new file:   .svn/pristine/39/39bf359b6613b837c57779ca09108242917a4ae8.svn-base
+#	new file:   .svn/pristine/3b/3b8eaa4d1503b81b1d758aa924db85fa05c8700f.svn-base
+#	new file:   .svn/pristine/3d/3d915cd5682b50e15514d2e27ae10c6cf33a8363.svn-base
+#	new file:   .svn/pristine/3d/3d9b212a308c862d4689566297995c7ae3b97987.svn-base
+#	new file:   .svn/pristine/3d/3df0cb14870c423abf9ae2e285268d956607921a.svn-base
+#	new file:   .svn/pristine/3f/3f4e0ea6e65132248848bb500cd15d0949225955.svn-base
+#	new file:   .svn/pristine/40/405075f89af02204222ab2ffcd78bd9e69500bcd.svn-base
+#	new file:   .svn/pristine/43/4316f4d5569fcd4edbdeefa5fe5fbaf6adcac7fb.svn-base
+#	new file:   .svn/pristine/43/4338b2c5f2a05007c528315320987603c5316cb6.svn-base
+#	new file:   .svn/pristine/44/4414413ae7cbab73da6e5d89e3c6def0f64d5b0e.svn-base
+#	new file:   .svn/pristine/44/44fc52a1c41869ec474aef9fe53d8b8d28c10a3a.svn-base
+#	new file:   .svn/pristine/46/462b91c30a2810fdfbc30e6c008638dae6e8291d.svn-base
+#	new file:   .svn/pristine/49/49113c52dbf2033656e5ef4961cd9b120fc96abb.svn-base
+#	new file:   .svn/pristine/49/499ef5f7ca7482880a8ea098e4cdabcc421dd608.svn-base
+#	new file:   .svn/pristine/4a/4acc52a3227be82385c6b4817bf36c7f3b426006.svn-base
+#	new file:   .svn/pristine/4b/4b70924d13cb8a27221829cadedb3ba45bd898c5.svn-base
+#	new file:   .svn/pristine/4b/4b7eb0f9dd693703f0b50f64282c2010eef5d6b8.svn-base
+#	new file:   .svn/pristine/4d/4d6b9ab9b8ab13b02db8128ef114237c09454a11.svn-base
+#	new file:   .svn/pristine/4d/4d9b6b6d6568d2f7b5d9c082ca9ba1850d2f3d70.svn-base
+#	new file:   .svn/pristine/4d/4dc030308eb0bc63586dae705b95d16d4921b19c.svn-base
+#	new file:   .svn/pristine/4d/4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd.svn-base
+#	new file:   .svn/pristine/4e/4ede8681d00972a4499f42a95537eb1b9775323e.svn-base
+#	new file:   .svn/pristine/4f/4f6a2d155a1131ffeb6a0c89ba750787f4eede3c.svn-base
+#	new file:   .svn/pristine/4f/4f74a0fb88e1d4a473527b9fe0ad5e27fbbb0975.svn-base
+#	new file:   .svn/pristine/4f/4f7a251363ba8924c8973500fb1446c5e4919f9e.svn-base
+#	new file:   .svn/pristine/4f/4fc153e238fb9b6bcc9f2f42182b4ef9907dc443.svn-base
+#	new file:   .svn/pristine/50/508240328c8b55f8157c93c43bf5e291e5d2fbcb.svn-base
+#	new file:   .svn/pristine/50/50e43984f0da21947b94bdcd88270d3516ffa61d.svn-base
+#	new file:   .svn/pristine/51/5110f376c2388f64ddfa6a0080f93630d0abde27.svn-base
+#	new file:   .svn/pristine/52/5252eb33232d9c733846a5926169224dd67cfb1e.svn-base
+#	new file:   .svn/pristine/53/5305491ed39c4b00fd0b642f35992f20128181d0.svn-base
+#	new file:   .svn/pristine/53/53bce09f65856f60ee992905cf5f2043d7189887.svn-base
+#	new file:   .svn/pristine/55/553788851f9e0fdc553b2df74ead67bb9f35cc82.svn-base
+#	new file:   .svn/pristine/55/556891618b2f6b053e376641353b151ac07a1b4e.svn-base
+#	new file:   .svn/pristine/56/5685f2928aa9c0fa80c4d3e7c75d157e4c1e14bc.svn-base
+#	new file:   .svn/pristine/57/57bcf3b894318f8626d5e94f454bdfd201b5fb86.svn-base
+#	new file:   .svn/pristine/58/5839f3b5de9df736080c4e7274150bc852e6f653.svn-base
+#	new file:   .svn/pristine/59/594a9d3122e99ab93c389ab34dbb70871a70c81c.svn-base
+#	new file:   .svn/pristine/59/59ecec9db42de052d428223f30712f68b89f171c.svn-base
+#	new file:   .svn/pristine/5b/5b82617e4f5e54aa320d45a66eb5ab1af57dc7a4.svn-base
+#	new file:   .svn/pristine/5e/5e1817f7f882ec430dab3bae5e1005c557fd7a20.svn-base
+#	new file:   .svn/pristine/5f/5f1728a1766592965bcc4ee3471ccf676e3cd1bb.svn-base
+#	new file:   .svn/pristine/5f/5f17f908b4f7296794b8fe07e7681027b127d506.svn-base
+#	new file:   .svn/pristine/5f/5f1b75567a43f9e2dac28ac266c7236ad0f5de00.svn-base
+#	new file:   .svn/pristine/61/61fc399c895992ab2b81d409d692517b125a14fa.svn-base
+#	new file:   .svn/pristine/65/657171b6d35775430e0256588335bd7bebe0933a.svn-base
+#	new file:   .svn/pristine/66/6695600fb88219f02cda51fd89e952eeb981c84f.svn-base
+#	new file:   .svn/pristine/67/67a90535e9f76bb4e4d6c7166f419f62070275ed.svn-base
+#	new file:   .svn/pristine/68/680c69ffe108ef78600ff7e01fbe4d93c0e64a73.svn-base
+#	new file:   .svn/pristine/68/6896a4486ca3f2b52b41fb966a68d896fbc1ea05.svn-base
+#	new file:   .svn/pristine/68/68a7b8359198344f42838feb3a235c84ac4257f8.svn-base
+#	new file:   .svn/pristine/69/69529fdbfcfe123a9234add465115c528fe40909.svn-base
+#	new file:   .svn/pristine/69/6954f07e87e94f5809a6e665bbd9b86c3bb81fc5.svn-base
+#	new file:   .svn/pristine/69/6973172b095097d9e5fa449f487d22da21c8fa3a.svn-base
+#	new file:   .svn/pristine/69/699a21b8d5ae452d4bcdc9fcef6e6a27b1a4e559.svn-base
+#	new file:   .svn/pristine/6a/6aad14c867a9c59a0a5e8eda3533c8e40ed27c11.svn-base
+#	new file:   .svn/pristine/6a/6aded307f54346ae351e7cfc0bb84da0665ca230.svn-base
+#	new file:   .svn/pristine/6d/6d04f4a1e54eb39e8c22c2cc8dfa73c96d671472.svn-base
+#	new file:   .svn/pristine/6d/6d20a6420353638a4c06f79865fbc10592b563b8.svn-base
+#	new file:   .svn/pristine/6e/6e256e5ee137bd44f252fffa6ff5cad4d5665a2f.svn-base
+#	new file:   .svn/pristine/6e/6eac5ab271e734d0d8fb108be2e0f83fe33e425e.svn-base
+#	new file:   .svn/pristine/70/705a17d259e7896f0082fe2e9f2c0c3b127be5ac.svn-base
+#	new file:   .svn/pristine/70/70a2b43e5d5feb7edde991354f7ed5cacc224552.svn-base
+#	new file:   .svn/pristine/70/70ae12fb1271d733275e4f5cb41b9d3cc5690514.svn-base
+#	new file:   .svn/pristine/70/70b2a5bd23f366894e2fcc3a6515d4cdd3d7a370.svn-base
+#	new file:   .svn/pristine/70/70e60d1582d56e2f9be90acfd04f6df1ba5202a0.svn-base
+#	new file:   .svn/pristine/71/7148406baae4979835edf4b23ab0b2344477a643.svn-base
+#	new file:   .svn/pristine/72/724499ce998172e629479096d178f4ee4aedab0d.svn-base
+#	new file:   .svn/pristine/73/7305fdb776373a205694a938532ece4a9071e332.svn-base
+#	new file:   .svn/pristine/73/730e6bd5225478bab6147b7a62a6e2ae21d40507.svn-base
+#	new file:   .svn/pristine/73/734590ab63d41870b52f2f937e81dbdd3f869ae4.svn-base
+#	new file:   .svn/pristine/74/742de952990ef8cf482cccd3dbe8d67d5aa71838.svn-base
+#	new file:   .svn/pristine/74/74a33d12cf1d479b4901bc0a0dd1cf02df998f0b.svn-base
+#	new file:   .svn/pristine/76/76f401f520c1ab4bf58eab0da433322c4575c9e8.svn-base
+#	new file:   .svn/pristine/78/7892340fe474c431bb081eb16872d42a4a052bda.svn-base
+#	new file:   .svn/pristine/78/78e03f70247694243b9923cdaffa2136e3ec7bf4.svn-base
+#	new file:   .svn/pristine/7b/7b8db8c0ecca595a91a9d7f5c332c25801b1c365.svn-base
+#	new file:   .svn/pristine/7b/7bb4d0c1e19b4cf8879abb1a7e29afa65a19ffb5.svn-base
+#	new file:   .svn/pristine/7c/7c3436a54e04e90e6adf737cedcb374e441f91bd.svn-base
+#	new file:   .svn/pristine/7f/7f0fe7890efca0b9832212852b665bae007e5bf7.svn-base
+#	new file:   .svn/pristine/80/80c61ea06f07b13fb10eb0491e810422a36fa9d6.svn-base
+#	new file:   .svn/pristine/80/80de82dfd57795eed1fcbc83b7a9a318eb9e3b20.svn-base
+#	new file:   .svn/pristine/81/8174a84a26a9504e0f4620da58ad71c8dc6e56a9.svn-base
+#	new file:   .svn/pristine/81/8189dce3d8b3fe0812ca64b5fbf6f329a2eb81dc.svn-base
+#	new file:   .svn/pristine/81/81cb51147ae2790afb1f19ea3e354814403def21.svn-base
+#	new file:   .svn/pristine/82/8234851947c7bb15751b4b65890f7277085dfaf2.svn-base
+#	new file:   .svn/pristine/82/82a787095f068f05b959e58243276213a547a265.svn-base
+#	new file:   .svn/pristine/83/83416a3f58d5b69e3ed6adabadf09e7963a26257.svn-base
+#	new file:   .svn/pristine/84/849985db533cd74b4fb001f7664846d6e6b07040.svn-base
+#	new file:   .svn/pristine/84/84f6bdbf4fd90f6fb0e7d5ffd466b6d21e126cc3.svn-base
+#	new file:   .svn/pristine/85/857d4ce945ea69e2c42c951cf09cb7213f93162c.svn-base
+#	new file:   .svn/pristine/86/8654ca83b20953f6e0d4d742bdeb4394aab18f7f.svn-base
+#	new file:   .svn/pristine/86/8670a6c15da8afd0e40d8e1217388addde777327.svn-base
+#	new file:   .svn/pristine/86/86d4a47de172f4f7abb1393a9c91c9f113e6e3dd.svn-base
+#	new file:   .svn/pristine/87/87f46d2be08976de3316a7f826c9e5194f0d207d.svn-base
+#	new file:   .svn/pristine/89/89fde2e0af99816a7a021acbbec07e2e9adf4f5b.svn-base
+#	new file:   .svn/pristine/8b/8b215197c44b09349e88fa69a5393e77ade9eb08.svn-base
+#	new file:   .svn/pristine/8c/8c11b8ad0cddf4baeb1f698bf11478153ab120ce.svn-base
+#	new file:   .svn/pristine/8c/8c7a16cfeb1c87b63de4f918be6ea035565f75bc.svn-base
+#	new file:   .svn/pristine/8c/8ca277cf49affd69c73143d007d9079f520abc9a.svn-base
+#	new file:   .svn/pristine/8c/8ce036629f26ede83c9fa2c9c19bb4c0cc9e22d7.svn-base
+#	new file:   .svn/pristine/8d/8dc6266e3148281583c2bb3d5c39edad2ba9a2ad.svn-base
+#	new file:   .svn/pristine/90/902dcc0373f72514ebfaf721350ce312e6c6cf11.svn-base
+#	new file:   .svn/pristine/92/9209222514377c17455f9502dded0663b771381f.svn-base
+#	new file:   .svn/pristine/92/9263f9b62f53a7aaaadb7eec9a42c2481435248c.svn-base
+#	new file:   .svn/pristine/93/93fa42aa5913953416da41b9d98e0f0196b268b3.svn-base
+#	new file:   .svn/pristine/94/9458ab3824a6ebf7a007730b57ad7335c855a3bb.svn-base
+#	new file:   .svn/pristine/96/9635f1b7e12c045212819dd934d809ef07efa2f4.svn-base
+#	new file:   .svn/pristine/96/964a0a4132fac1dcc5632d615480cff7dabe866a.svn-base
+#	new file:   .svn/pristine/97/97aab7e6f183d8dfcfe643e808479d0ce3f9f4a1.svn-base
+#	new file:   .svn/pristine/97/97d170e1550eee4afc0af065b78cda302a97674c.svn-base
+#	new file:   .svn/pristine/98/984da8400d51ca07ed9318b8f0f4ead444e0a8cc.svn-base
+#	new file:   .svn/pristine/98/98c5f21db819f8a79787933eca9110d7888d4c49.svn-base
+#	new file:   .svn/pristine/99/9901966809b17b1207d517fc2c19f5fc97ef6c05.svn-base
+#	new file:   .svn/pristine/9b/9b11bf1069d870db39113d65dc5af90a6ee306fa.svn-base
+#	new file:   .svn/pristine/9c/9ceb568c23c8d37083c7ab30f91dc0513bf275e9.svn-base
+#	new file:   .svn/pristine/9d/9d71f067bae3e23f66edc6400800727193c138c6.svn-base
+#	new file:   .svn/pristine/9d/9d930e7937e14d0350e7f7e207c2bd6052e6a967.svn-base
+#	new file:   .svn/pristine/9e/9eacfd5198cfeacf25fb64fe4bbc98e2f4c13973.svn-base
+#	new file:   .svn/pristine/a0/a069d2f4114f3ab3809c266ec5d006bf51d48ce4.svn-base
+#	new file:   .svn/pristine/a1/a1dd93d9ac7ca48a4b2308be667293bafc523143.svn-base
+#	new file:   .svn/pristine/a4/a4e2d08ede87d0257bb398186c2a05b2194dc690.svn-base
+#	new file:   .svn/pristine/a5/a531007643d2de64b2603717ed571ff04d430a1d.svn-base
+#	new file:   .svn/pristine/a5/a560bdf1ae02c0dae1c14d2b93473890c7cb2e2f.svn-base
+#	new file:   .svn/pristine/a5/a599b773b930ca83dbc3a5c7c13059ac4a6eaedc.svn-base
+#	new file:   .svn/pristine/a5/a5bbd11ce2a61cf35ea95820a07b6cd6324f22b8.svn-base
+#	new file:   .svn/pristine/a7/a79d057388ee2c2fe6561d7697f1f5efcff96f23.svn-base
+#	new file:   .svn/pristine/a7/a7b4c08aed5a9d41fe9d5cf35ee0cc1e2407884e.svn-base
+#	new file:   .svn/pristine/a7/a7b948a958660840bf7046651a7c7660865feb68.svn-base
+#	new file:   .svn/pristine/a8/a8399578bad87dc26cc35b843d6605ae9f8d0561.svn-base
+#	new file:   .svn/pristine/a8/a8c0e731f532a37bca4731702ff0f72ce8060c97.svn-base
+#	new file:   .svn/pristine/ab/ab2d7f014d9f44c46ffdbec0fcafd118023b7958.svn-base
+#	new file:   .svn/pristine/ab/abc0630bffe081c5b67d0c1752fa7285f0cdffbc.svn-base
+#	new file:   .svn/pristine/ac/ac812a0dfd7f1e864111e91cea75352ce7637893.svn-base
+#	new file:   .svn/pristine/ac/aca82c6c7efa7f1f31a9890daffe541768da8a71.svn-base
+#	new file:   .svn/pristine/ac/acbaef275e46a7f14c1ef456fff2c8bbe8c84724.svn-base
+#	new file:   .svn/pristine/ad/adc38a63014b2b07cac6b22a691431d33f567c3d.svn-base
+#	new file:   .svn/pristine/ad/adc497b00c690b017a6d2bfc9a0946265fcfef34.svn-base
+#	new file:   .svn/pristine/b0/b01b31cd358c12d7e0a004827898b9105c117537.svn-base
+#	new file:   .svn/pristine/b0/b01bcca7538fb74a66e3f1db47a89ce8fcd15b16.svn-base
+#	new file:   .svn/pristine/b1/b11bf1300caa1234772dca1492dc0693a34eb7a3.svn-base
+#	new file:   .svn/pristine/b1/b1237420779546e99274b681397bfe44608eda2c.svn-base
+#	new file:   .svn/pristine/b1/b1b6b5be4a713d61d4c170382b55a87b0dd043fb.svn-base
+#	new file:   .svn/pristine/b3/b348cc12b8253534cfe7476987f1f4c97d2e05ec.svn-base
+#	new file:   .svn/pristine/b4/b460034969b97be67612d96b9640110de7282acd.svn-base
+#	new file:   .svn/pristine/b4/b48ef0245185b0521ddcb3bd62f2c2f531d4a76d.svn-base
+#	new file:   .svn/pristine/b4/b4b4533b73f8bf9fd5bd04726623ccfad5509ba4.svn-base
+#	new file:   .svn/pristine/b5/b553a637786bce9bf835d8fecf022c8f8214c9fa.svn-base
+#	new file:   .svn/pristine/b6/b614c2f63da7dca9f1db2e7ade61ef30448fc96c.svn-base
+#	new file:   .svn/pristine/b7/b7bababc97eec59861630b3969166050299a822e.svn-base
+#	new file:   .svn/pristine/b7/b7dc12f8ee98f520c7b14790226febe5b13e5e9e.svn-base
+#	new file:   .svn/pristine/b8/b87768695bbfa0ff94952151224ddeb01ed48767.svn-base
+#	new file:   .svn/pristine/b9/b9e7ea2cc905e5c3164c2ed1904f0c38e5b28b57.svn-base
+#	new file:   .svn/pristine/ba/ba74d33c3a9a20fd5284b8c02deb60efd8b7ab54.svn-base
+#	new file:   .svn/pristine/ba/bafaf2bd96256231848b458915089e77200768fc.svn-base
+#	new file:   .svn/pristine/bc/bca18190aa8fe770228f4fa5d9b892156be22857.svn-base
+#	new file:   .svn/pristine/c0/c05ac5965a8b1afe6ad2d4cf17ce5ad1959e9f15.svn-base
+#	new file:   .svn/pristine/c2/c29b8419056a85cafa4814e868e21fc22f899f25.svn-base
+#	new file:   .svn/pristine/c2/c2baae88d6364d878fd67e778c6a5d8306ad4ab0.svn-base
+#	new file:   .svn/pristine/c2/c2dc5b32e00225098500017b505e5ffa3fa8b239.svn-base
+#	new file:   .svn/pristine/c4/c460e5269707b6313814a066bd38088c65975e5f.svn-base
+#	new file:   .svn/pristine/c4/c4d970281b7c2119b48b0ce6bb87c2e453745271.svn-base
+#	new file:   .svn/pristine/c5/c5a7ff2c0a69f4095141d9c7ae607ea57639e7ff.svn-base
+#	new file:   .svn/pristine/c6/c6cdf28126bd8fbc800c132b81cb9b0a00c3dc20.svn-base
+#	new file:   .svn/pristine/c7/c7bbe10beb5c20163b03bab6233087ff3471a1d0.svn-base
+#	new file:   .svn/pristine/c8/c879df015d97615050afa7b9641e3352a1e701ac.svn-base
+#	new file:   .svn/pristine/c9/c90cecb6af2425584ecfdc7a9d0d1d73c5aa2b91.svn-base
+#	new file:   .svn/pristine/c9/c97df71fd77b93df93bcf3bb3fa6b628c67d3783.svn-base
+#	new file:   .svn/pristine/ca/ca8455aa2914e9388b17f120dde77a3742022916.svn-base
+#	new file:   .svn/pristine/ca/cad40b8f930526bd5432dd934299da1c911f714d.svn-base
+#	new file:   .svn/pristine/cb/cb4862beacb02a7936df9e5dda3c1a6b9fb0de2f.svn-base
+#	new file:   .svn/pristine/cb/cb490997824e0a4f2b110afae99d12d5c1c32dcd.svn-base
+#	new file:   .svn/pristine/cc/cc8899eb4bbd14d2ac091c314874a59454e3b55e.svn-base
+#	new file:   .svn/pristine/cc/ccb671285066b2a46dc6be3f097ef6c417cf3435.svn-base
+#	new file:   .svn/pristine/cf/cf66f03d3ceddd736367fc4f54570a76e68993bd.svn-base
+#	new file:   .svn/pristine/cf/cf6cfe2d152f8ed5d4cf7ccf481add2adc786788.svn-base
+#	new file:   .svn/pristine/cf/cf8feff01c6780d3713e60ea90f847541ec8b873.svn-base
+#	new file:   .svn/pristine/cf/cfc0b527ba4e6e2e7c9afad8664ad9444d2f15bd.svn-base
+#	new file:   .svn/pristine/cf/cff590b07fbff3b6c118f1c358c18cd1a23427fa.svn-base
+#	new file:   .svn/pristine/d0/d02dedfb89e6c9c3a5bb98674ea301f186a26e6d.svn-base
+#	new file:   .svn/pristine/d0/d086f69d4bf32fe8b29fcb5fdd0360271734db8b.svn-base
+#	new file:   .svn/pristine/d0/d08d79d95f2cfdda423aed3a8b337abee90b56be.svn-base
+#	new file:   .svn/pristine/d0/d096f43c677b52c17a0b4686fd653456428fece5.svn-base
+#	new file:   .svn/pristine/d1/d14a0c121730fdbeb6a83e3f81f592d214660cef.svn-base
+#	new file:   .svn/pristine/d2/d222c1e95ba289f2814d142867f8b3c8b656bcc6.svn-base
+#	new file:   .svn/pristine/d2/d2b780c4851e5d86c5c0061d47a24f4b4bc8cf97.svn-base
+#	new file:   .svn/pristine/d3/d3e85ec7dcacd5df46018de82cd393d3d631c79d.svn-base
+#	new file:   .svn/pristine/d3/d3f9be74e83b69fe5ce167cdd8b0ddfd06edba9c.svn-base
+#	new file:   .svn/pristine/d6/d61d2f26ac64bfad8944d85032f0b1c7f300f148.svn-base
+#	new file:   .svn/pristine/d7/d72e1c449020fd909b5440dfece445854b1d2596.svn-base
+#	new file:   .svn/pristine/d7/d77bc41e649655a0cb4a3d2facf406faeebd3f93.svn-base
+#	new file:   .svn/pristine/d7/d7f71542278d9395499088ce7f1692e123e926d1.svn-base
+#	new file:   .svn/pristine/d8/d8d06fe04d4682cdeda56f7876a365858c11d79d.svn-base
+#	new file:   .svn/pristine/d9/d905944f7bc3df37c1a528f66adcdcebac3dcf20.svn-base
+#	new file:   .svn/pristine/da/dabbecd344314d3e4e123d47252ffe4b6703f3c3.svn-base
+#	new file:   .svn/pristine/dd/dd08cef2b020df682dee69ef9107e1194af609b3.svn-base
+#	new file:   .svn/pristine/dd/dd18110a57b7748995cfcc349997dd974270d25f.svn-base
+#	new file:   .svn/pristine/dd/ddbc4bdd65e8c24bde07e43142357b8fe025e954.svn-base
+#	new file:   .svn/pristine/de/de5273d8015341e563301434acf70b956e7c393d.svn-base
+#	new file:   .svn/pristine/df/df441bef4aa014fc1b8097a056a0ba9c9827062d.svn-base
+#	new file:   .svn/pristine/e1/e11ee0b17952251b3527c837710b1c14886a7c46.svn-base
+#	new file:   .svn/pristine/e1/e1493509083ca68b137c4bd32ddc2f7f26d955fc.svn-base
+#	new file:   .svn/pristine/e1/e1afb7dc795a9c03f094b2d53d5f10a44077a842.svn-base
+#	new file:   .svn/pristine/e3/e36301e084ac6929d5288aa919d93101b2db471e.svn-base
+#	new file:   .svn/pristine/e5/e5564ddc3a111474e4ec4b8bdd9e6cf58d7b5847.svn-base
+#	new file:   .svn/pristine/e5/e5eea8d6c29f67ada768f58f46fcddf858793fb4.svn-base
+#	new file:   .svn/pristine/e6/e64e34d5765056ce7f21e35e3d3b1c25a3c5415e.svn-base
+#	new file:   .svn/pristine/e7/e738be46d504098468948e8772be48b30ac6dd07.svn-base
+#	new file:   .svn/pristine/e7/e748a21e6ad5adff1753a404a783872b60bab279.svn-base
+#	new file:   .svn/pristine/e8/e8b6fb505180720d6945cc5557f1c5292b90672a.svn-base
+#	new file:   .svn/pristine/eb/eb262ebec77369f450955ac64c7c892cec5124a0.svn-base
+#	new file:   .svn/pristine/eb/eb7da35ad419636d02856542b1afd12275289b7f.svn-base
+#	new file:   .svn/pristine/eb/eb875c169fac1c8b6e19a165f84c660dc96adc8f.svn-base
+#	new file:   .svn/pristine/ec/ecdd9dc13761c984f086c7c7e626f782bf00edc1.svn-base
+#	new file:   .svn/pristine/ed/edb580ec0673a122c8e72ca3849507ece2203a3c.svn-base
+#	new file:   .svn/pristine/ee/ee1ed5aad98a435f2020b6de35c173b75d9affac.svn-base
+#	new file:   .svn/pristine/ee/eea798312377312421f0dbc67e112f59ea62fb2d.svn-base
+#	new file:   .svn/pristine/ef/ef7c137e3b1e519bd1985fee4c2ba4fba438ab49.svn-base
+#	new file:   .svn/pristine/ef/ef93e997876183a84ce41e2fefe078476d8d667d.svn-base
+#	new file:   .svn/pristine/f1/f1671304610516f3f76575bbc1668cdad2c8ff08.svn-base
+#	new file:   .svn/pristine/f2/f208287c1a92525de9f5462e905a9d31de1e2d75.svn-base
+#	new file:   .svn/pristine/f2/f24254f05efdb143244c1b64ca6f69d0224b8afd.svn-base
+#	new file:   .svn/pristine/f2/f2eedaad7b10fbd2aca2bd3a0f24fe41e1cc7fca.svn-base
+#	new file:   .svn/pristine/f4/f460f3ad3bf2c66539ae0fe23e3e30f1ee1a187c.svn-base
+#	new file:   .svn/pristine/f4/f4d0ef27481b4808ce0f73af2cad2a3859e8129e.svn-base
+#	new file:   .svn/pristine/f5/f5887a0ca3a03bd0ad4d07f70ecea4c200b41e09.svn-base
+#	new file:   .svn/pristine/f5/f5a6edbe42bf7d9a54c69a2f169b48e66d802dcd.svn-base
+#	new file:   .svn/pristine/f5/f5dcaca849de0e061925c4142a3e9fc3a367d1bb.svn-base
+#	new file:   .svn/pristine/f6/f659a98458fd340fd865f2f6622a5f6f572c8a00.svn-base
+#	new file:   .svn/pristine/f7/f720aa471ce18bc1f27ac6b4e55dfef8c880cf21.svn-base
+#	new file:   .svn/pristine/f7/f7548261a3df3c3d4db099d1c0d4aea07cb45a0d.svn-base
+#	new file:   .svn/pristine/f9/f9acaead3e977c3d0fb7ad604631d5d838950772.svn-base
+#	new file:   .svn/pristine/fc/fcd418ddc69bdbfdc622971578e652473cb0c797.svn-base
+#	new file:   .svn/pristine/fd/fd580b726e7b57ae56a3eb96f7cdf549ba5011b1.svn-base
+#	new file:   .svn/pristine/fe/fef3c6a00ba208bddfad45b575167c033436a7c9.svn-base
+#	modified:   .svn/wc.db
+#	deleted:    ui/__pycache__/conftest.cpython-310-pytest-7.1.3.pyc
+#	deleted:    ui/common/__pycache__/__init__.cpython-310.pyc
+#	deleted:    ui/common/__pycache__/login_ue.cpython-310.pyc
+#	deleted:    ui/common/__pycache__/main_ue.cpython-310.pyc
+#	modified:   ui/common/main_ue.py
+#	modified:   ui/failures
+#	deleted:    ui/page_location/__pycache__/__init__.cpython-310.pyc
+#	deleted:    ui/page_location/__pycache__/home_location.cpython-310.pyc
+#	deleted:    ui/page_location/__pycache__/login_location.cpython-310.pyc
+#	deleted:    ui/page_location/__pycache__/price_comparison.cpython-310.pyc
+#	deleted:    ui/test_case/__pycache__/__init__.cpython-310.pyc
+#	deleted:    ui/test_case/__pycache__/test_login.cpython-310-pytest-7.1.2.pyc
+#	deleted:    ui/test_case/__pycache__/test_login.cpython-310-pytest-7.1.3.pyc
+#	deleted:    ui/test_case/__pycache__/test_main_ue.cpython-310-pytest-7.1.2.pyc
+#	deleted:    ui/test_case/__pycache__/test_main_ue.cpython-310-pytest-7.1.3.pyc
+#

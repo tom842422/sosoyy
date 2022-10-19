@@ -1,5 +1,6 @@
 import pytest
-import sys,os
+import sys
+import os
 
 # 在cmd切换到项目目录下输入 allure generate report/ -o report/html --clean 生成html报告
 
