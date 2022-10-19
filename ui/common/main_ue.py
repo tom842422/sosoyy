@@ -42,7 +42,7 @@ class MainUe:
         self.driver.find_element( *HL.upload_file ).click()
         # 上传excel表格
         sleep( 2 )
-        send_keys( r"C:\work_download\32.xlsx" )
+        send_keys( r"D:\\work_download\\正式\\32.xlsx" )
         sleep( 3 )
         send_keys( '{ENTER}' )
         # 渠道供应商未加入询价确认框

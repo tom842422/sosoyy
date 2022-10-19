@@ -1,9 +1,8 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
-from page_location.login_location import LoginLocathin as LL
-from page_location.home_location import HomeLocathin as HL
+from ui.page_location.login_location import LoginLocathin as LL
+from ui.page_location.home_location import HomeLocathin as HL
 from selenium.webdriver.support import expected_conditions as EC
-
 
 class LoginUe:
 
@@ -20,6 +19,9 @@ class LoginUe:
         self.driver.find_element(*LL.login_code_input).send_keys('2usw')
         self.driver.find_element(*LL.login_button).click()
         return self
+
+    def get_login_num(self):
+        return self.driver.find_element(*HL.login_num).text
 
     def get_login_success_01(self):
         # 登录校验

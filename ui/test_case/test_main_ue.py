@@ -5,13 +5,11 @@
 # @File : test_main_ue.py
 # @Project : sosoyy_ui_new
 from time import sleep
-
 import allure
 import pytest
 from selenium import webdriver
-
-from common.login_ue import LoginUe
-from common.main_ue import MainUe
+from ui.common.login_ue import LoginUe
+from ui.common.main_ue import MainUe
 
 
 @pytest.fixture

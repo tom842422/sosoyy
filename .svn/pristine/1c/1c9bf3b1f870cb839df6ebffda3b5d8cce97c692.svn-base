@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 15 13:58:57 CST 2022","Mon Aug 15 13:58:58 CST 2022","984","test_case","test_login","TestLogin","","","test_login_ue_success_01",""
+"passed","Mon Aug 15 13:59:15 CST 2022","Mon Aug 15 13:59:28 CST 2022","12991","test_case","test_main_ue","TestMainUe","","","test_main_ue_03",""
+"passed","Mon Aug 15 13:59:06 CST 2022","Mon Aug 15 13:59:07 CST 2022","912","test_case","test_login","TestLogin","","","test_login_ue_false_02",""
