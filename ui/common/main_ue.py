@@ -9,11 +9,11 @@ from time import sleep
 from pywinauto.keyboard import send_keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
-from ui.page_location.login_location import LoginLocathin as LL
-from ui.page_location.home_location import HomeLocathin as HL
+from page_location.login_location import LoginLocathin as LL
+from page_location.home_location import HomeLocathin as HL
 from selenium.webdriver.support import expected_conditions as EC
-from ui.page_location.price_comparison import PriceComparison as PC
-from ui.common.login_ue import LoginUe
+from page_location.price_comparison import PriceComparison as PC
+from common.login_ue import LoginUe
 import pytest_rerunfailures
 
 
