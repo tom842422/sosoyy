@@ -1,0 +1,3 @@
+ui/test_case/test_login.py::TestLogin::test_login_ue_success_01
+ui/test_case/test_login.py::TestLogin::test_login_ue_false_02
+ui/test_case/test_main_ue.py::TestMainUe::test_main_ue_03

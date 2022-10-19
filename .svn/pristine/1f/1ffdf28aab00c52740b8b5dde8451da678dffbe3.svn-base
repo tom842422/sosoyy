@@ -1,0 +1,6 @@
+from nturl2path import url2pathname
+from common.read_yaml import ReadYaml
+
+print(ReadYaml('url').get_data())
+print(eval(ReadYaml('url').get_data()) + "\\app")
+print(type(eval(ReadYaml('url').get_data()) + "\\app"))

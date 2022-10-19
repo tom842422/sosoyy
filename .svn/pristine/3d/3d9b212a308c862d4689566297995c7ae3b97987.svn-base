@@ -1,0 +1,42 @@
+import json
+
+import requests
+from common.my_excel import MyExcel
+from common.header import Header
+from common.read_yaml import ReadYaml
+import pytest
+
+
+class Requrest:
+    def __init__(self):
+        self.filename = ReadYaml(key='filename').get_data()
+        self.sheet = ReadYaml(key='sheetname').get_data()
+        self.url = MyExcel().read_all_data()['url']
+        self.param = json.loads(MyExcel().read_all_data()['datas'])
+        self.method = MyExcel().read_all_data()['method'].lower()
+
+    def request(self, status='logged'):
+        global my_request
+        if self.method == 'post' and status == 'logged':
+            my_request = requests.post(
+                url=self.url,
+                json=self.param,
+                headers=json.loads(Header().logged_header()),
+            )
+        elif self.method == 'post' and status == 'login':
+            my_request = requests.post(
+                url=self.url,
+                json=self.param,
+                headers=json.loads(Header().login_header()),
+            )
+        elif self.method == 'get':
+            url_data = self.url + MyExcel().read_all_datas()['datas']
+            my_request = requests.get(
+                url=url_data, headers=json.loads(Header().logged_header)
+            )
+        return my_request
+
+
+if __name__ == '__main__':
+    res = Requrest().request()
+    print(res)

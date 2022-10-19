@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2022-08-29 13:34
+# @Author  : TOM
+# @File    : read_ini.py
+# @Software: PyCharm
+
+import configparser
+import os
+
+
+class ReadIni:
+    ini_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        'config',
+        'setting.yaml',
+    )
+
+    def __init__(self, value):
+        # 访问地址
+        self.value = value
+
+    def read_host(self):
+        conf = configparser.ConfigParser()
+        conf.read(self.ini_path, encoding='utf8')
+        # 根据接口类型返回对应的url
+        return conf['data_file'][self.value]
+
+
+if __name__ == '__main__':
+    r = ReadIni('filename').read_host()
+    print(r)

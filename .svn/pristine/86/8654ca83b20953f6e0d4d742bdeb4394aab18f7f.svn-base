@@ -1,0 +1,60 @@
+import json
+import re
+from tkinter import N
+import requests
+from common.read_yaml import ReadYaml
+
+
+class Header:
+    url = eval(ReadYaml('url').get_data())
+    body = None
+
+    def __init__(self):
+        if self.url == 'http://192.168.1.50':
+            self.url_f = 'http://192.168.1.50/api/Login/Login'
+            self.body = {
+                "captchaUUID": "80a61749-93bc-48ae-95a4-485ea16b2fd2",
+                "mobile": "17740194052",
+                "password": "123456",
+                "authCode": "",
+                "captcha": "2usw",
+            }
+        elif self.url == 'https://srm.sosoyy.com':
+            self.url_f = 'https://srm.sosoyy.com/api/Login/Login'
+            self.body = {
+                "captchaUUID": "80a61749-93bc-48ae-95a4-485ea16b2fd2",
+                "mobile": "13518101893",
+                "password": "123456",
+                "authCode": "",
+                "captcha": "2usw",
+            }
+
+    def get_authorization(self):
+        response = requests.post(url=self.url, json=self.body, stream=True)
+        res = eval("u" + "\'" + response.text + "\'")
+        return "Bearer " + str(
+            re.findall('.*"accessToken":(.*),"incName".*', string=res)
+        )
+
+    def login_header(self):
+        return {
+            "Content-Type": "application/json",
+            "Cookie": "Hm_lvt_5051f16aef626d4043437332e22fa100=1660875221,1661130413,1661216100,1661217316; Hm_lpvt_5051f16aef626d4043437332e22fa100=1661219187",
+        }
+
+    def logged_header(self):
+        logged_header = {
+            "Content-Type": "application/json",
+            "Cookie": "Hm_lvt_5051f16aef626d4043437332e22fa100=1660875221,1661130413,1661216100,1661217316; Hm_lpvt_5051f16aef626d4043437332e22fa100=1661219187",
+            "Authorization": self.get_authorization(),
+        }
+
+        return json.dumps(logged_header)
+
+
+if __name__ == '__main__':
+    res = Header()
+    print(res.logged_header())
+    print(type(res.logged_header()))
+    print(res.login_header())
+    print(type(res.login_header()))

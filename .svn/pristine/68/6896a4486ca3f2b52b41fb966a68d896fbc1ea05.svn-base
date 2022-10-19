@@ -1,0 +1,11 @@
+from common.request import Requrest
+from common.my_excel import MyExcel
+from common.read_yaml import ReadYaml
+
+
+def test_login():
+    Requrest()
+
+
+if __name__ == '__main__':
+    pass

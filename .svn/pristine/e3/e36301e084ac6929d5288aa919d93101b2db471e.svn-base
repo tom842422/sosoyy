@@ -1,0 +1,10 @@
+from urllib import request
+import pytest
+import allure
+from loguru import logger
+from common.my_excel import MyExcel as ME
+from common.request import Requrest
+from common.my_mssql import MyMSSQL as MM
+
+if __name__ == '__main__':
+    request

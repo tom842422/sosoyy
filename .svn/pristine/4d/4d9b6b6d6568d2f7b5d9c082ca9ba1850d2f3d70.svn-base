@@ -1,0 +1,4 @@
+url: 'http://192.168.1.50'
+# url: 'https://srm.sosoyy.com'
+filename: 'api_test.xlsx'
+sheetname: 'login'

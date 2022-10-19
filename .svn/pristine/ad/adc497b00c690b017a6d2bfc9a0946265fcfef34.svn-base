@@ -1,0 +1,4 @@
+{
+  "ui/test_case/test_login.py": true,
+  "ui/test_case/test_main_ue.py": true
+}

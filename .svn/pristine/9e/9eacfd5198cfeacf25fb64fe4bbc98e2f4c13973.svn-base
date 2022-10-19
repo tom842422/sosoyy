@@ -1,0 +1,46 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2022-08-26 17:35
+# @Author  : TOM
+# @File    : test.py
+# @Software: PyCharm
+
+from loguru import logger
+
+
+class BaseCase:
+
+    def base_case(self, case, hreq, global_data):
+        logger.info( f"===== 开始执行用例：{case['title']} ======" )
+        # 1、执行前置sql语句
+        if case.get( "pre_sql" ):
+            excute_pre_sql( case.get( "pre_sql" ), global_data )
+
+        # 2、替换请求数据当中，占位符
+        if case.get( "req_data" ):
+            case["req_data"] = replace_mark_by_data( case["req_data"], global_data )
+
+        # 3、如果有token,传token
+        if hasattr( global_data, "token" ) and ("login" not in case["url"] and "adminLogin" not in case["url"]):
+            resp = hreq.send_req( case["method"], case["url"],
+                                  json=case["req_data"],
+                                  files=case["files"],
+                                  token=getattr( global_data, "token" )  # 从全局变量拿
+                                  )
+        else:
+            resp = hreq.send_req( case["method"], case["url"], json=case["req_data"], files=case["files"] )
+
+        # 4、处理响应结果。如果它是一个字符串，要拼接成一个json串形式字符串。
+        resp_dict = transfer_resp_text_to_dict( resp )
+
+        # 5、如果有提取，就进行提取操作。并设置为全局变量
+        if case.get( "extract" ):
+            extract_data_from_response( resp_dict, case.get( "extract" ), global_data )
+
+        # 6、响应结果断言
+        if case.get( "check_response" ):
+            assert_resp_data( case.get( "check_response" ), resp_dict, global_data )
+
+        # 7、数据库断言
+        if case.get( "check_db" ):
+            assert_db( case.get( "check_db" ), global_data )
