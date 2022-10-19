@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from ui.common.login_ue import LoginUe
+from common.login_ue import LoginUe
 # from common.login_ue import driver as DR
 from selenium import webdriver
 

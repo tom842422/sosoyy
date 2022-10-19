@@ -1,7 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webdriver import WebDriver
-from ui.page_location.login_location import LoginLocathin as LL
-from ui.page_location.home_location import HomeLocathin as HL
+from page_location.login_location import LoginLocathin as LL
+from page_location.home_location import HomeLocathin as HL
 from selenium.webdriver.support import expected_conditions as EC
 
 
